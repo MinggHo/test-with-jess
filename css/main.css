@@ -1,3 +1,93 @@
+html {
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
 body {
-  background: olive;
+}
+
+#main {
+  padding-top: 3rem;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 800;
+  margin: 0.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  line-height: 0rem;
+  color: #333333, 100%;
+  margin-left: 0.5rem;
+}
+
+p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  margin: 0.5rem;
+  color: #333333, 100%;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  display: inline-block;
+  text-align: left;
+  max-width: 45%;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.title__name {
+  color: #bb6bd9;
+  line-height: 2rem;
+  display: inline-block;
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+#img-div {
+  display: block;
+  margin: auto;
+  max-width: 50%;
+  padding: 1.5rem;
+}
+
+#image {
+  max-width: 500px;
+}
+
+#tribute-info {
+  padding: 3rem;
+  margin: 3rem;
+  background-color: #9b51e0;
+  max-width: 86%;
+  box-shadow: -24px 24px 0px #632679;
+}
+
+.tribute__header {
+  color: #632679;
+}
+
+.tribute__copy {
+  color: #ffffff;
+}
+
+#tribute-link {
+  float: right;
+  padding: 2rem;
+  font-style: italic;
+  font-size: 2rem;
+  font-weight: 800;
 }
